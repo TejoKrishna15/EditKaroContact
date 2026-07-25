@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Editkaro.in | Creative Video Editing Agency</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+    <!-- Google Font -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="container">
+
+            <nav>
+
+                <div class="logo">
+
+                    <img src="images/logo.PNG"
+                         alt="Logo">
+
+                </div>
+
+                <ul>
+
+                    <li><a href="#home">Home</a></li>
+
+                    <li><a href="#portfolio">Portfolio</a></li>
+
+                    <li><a href="#about">About</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+
+                <a href="#portfolio"
+                   class="btn">
+
+                    Explore
+
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- HERO -->
+
+    <section class="hero"
+             id="home">
+
+        <img src="images/hero.jpg"
+             class="hero-img"
+             alt="Hero">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+
+            <h1>
+
+                We Create
+                <span>Stories</span>
+
+                That Inspire.
+
+            </h1>
+
+            <p>
+
+                Editkaro is a creative video editing and
+                social media marketing agency specializing in
+                cinematic edits, gaming videos,
+                documentaries, advertisements,
+                YouTube videos and viral short-form content.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#portfolio"
+                   class="btn-primary">
+
+                    View Portfolio
+
+                </a>
+
+                <a href="#about"
+                   class="btn-secondary">
+
+                    Learn More
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- PORTFOLIO -->
+
+<section class="portfolio" id="portfolio">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <h2>Featured Portfolio</h2>
+
+            <p>
+                Explore our creative work across multiple categories of professional video editing.
+            </p>
+
+        </div>
+
+        <!-- FILTER BUTTONS -->
+
+        <div class="filter-buttons">
+
+            <button class="active" data-filter="all">All</button>
+
+            <button data-filter="shortform">Short-form</button>
+
+            <button data-filter="longform">Long-form</button>
+
+            <button data-filter="gaming">Gaming</button>
+
+            <button data-filter="football">Football</button>
+
+            <button data-filter="ecommerce">eCommerce</button>
+
+            <button data-filter="documentary">Documentary</button>
+
+            <button data-filter="colorgrading">Color Grading</button>
+
+            <button data-filter="anime">Anime</button>
+
+            <button data-filter="ads">Ads</button>
+
+        </div>
+
+        <!-- PORTFOLIO GRID -->
+
+        <div class="portfolio-grid">
+
+            <!-- Short Form -->
+
+            <div class="portfolio-card" data-category="shortform">
+
+                <img src="images/shortform.png" alt="Short Form">
+
+                <div class="card-overlay">
+
+                    <span>Short-form Videos</span>
+
+                    <h3>Instagram Reels & Shorts</h3>
+
+                    <button class="play-btn"
+                            data-video="videos/shortform.mp4">
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Long Form -->
+
+            <div class="portfolio-card" data-category="longform">
+
+                <img src="images/longform.png" alt="Long Form">
+
+                <div class="card-overlay">
+
+                    <span>Long-form Videos</span>
+
+                    <h3>YouTube & Documentary</h3>
+
+                    <button class="play-btn"
+                            data-video="videos/longform.mp4">
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Gaming -->
+
+            <div class="portfolio-card" data-category="gaming">
+
+                <img src="images/gaming.png" alt="Gaming">
+
+                <div class="card-overlay">
+
+                    <span>Gaming</span>
+
+                    <h3>Gameplay Highlights</h3>
+
+                    <button class="play-btn"
+                            data-video="videos/gaming.mp4">
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Football -->
+
+            <div class="portfolio-card" data-category="football">
+
+                <img src="images/football.png" alt="Football">
+
+                <div class="card-overlay">
+
+                    <span>Football</span>
+
+                    <h3>Cinematic Sports Edit</h3>
+
+                    <button class="play-btn"
+                            data-video="videos/football.mp4">
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Ecommerce -->
+
+            <div class="portfolio-card" data-category="ecommerce">
+
+                <img src="images/ecommerce.png" alt="eCommerce">
+
+                <div class="card-overlay">
+
+                    <span>eCommerce</span>
+
+                    <h3>Product Advertisement</h3>
+
+                    <button class="play-btn"
+                            data-video="videos/ecommerce.mp4">
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Documentary -->
+
+            <div class="portfolio-card" data-category="documentary">
+
+                <img src="images/documentary.png" alt="Documentary">
+
+                <div class="card-overlay">
+
+                    <span>Documentary</span>
+
+                    <h3>Storytelling</h3>
+
+                    <button class="play-btn"
+                            data-video="videos/documentary.mp4">
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Color Grading -->
+
+            <div class="portfolio-card" data-category="colorgrading">
+
+                <img src="images/colorgrading.png" alt="Color Grading">
+
+                <div class="card-overlay">
+
+                    <span>Color Grading</span>
+
+                    <h3>Cinematic Look</h3>
+
+                    <button class="play-btn"
+                            data-video="videos/colorgrading.mp4">
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Anime -->
+
+            <div class="portfolio-card" data-category="anime">
+
+                <img src="images/anime.png" alt="Anime">
+
+                <div class="card-overlay">
+
+                    <span>Anime</span>
+
+                    <h3>AMV Editing</h3>
+
+                    <button class="play-btn"
+                            data-video="videos/anime.mp4">
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Ads -->
+
+            <div class="portfolio-card" data-category="ads">
+
+                <img src="images/ads.png" alt="Ads">
+
+                <div class="card-overlay">
+
+                    <span>Advertisement</span>
+
+                    <h3>Commercial Editing</h3>
+
+                    <button class="play-btn"
+                            data-video="videos/ads.mp4">
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--  ABOUT SECTION -->
+
+<section class="about" id="about">
+
+    <div class="container">
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <span>WHO WE ARE</span>
+
+                <h2>
+                    Creative Video Editing &
+                    Digital Marketing Experts
+                </h2>
+
+                <p>
+
+                    At Editkaro.in, we transform ideas into compelling visual stories.
+                    Our team specializes in cinematic editing, YouTube content,
+                    gaming highlights, football edits, documentaries, anime edits,
+                    color grading, and high-converting advertisements.
+
+                </p>
+
+                <p>
+
+                    Every project is crafted with creativity, precision,
+                    and a passion for storytelling to help brands and creators
+                    stand out in today's digital world.
+
+                </p>
+
+                <a href="#contact" class="btn-primary">
+
+                    Work With Us
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <h2>Let's Create Something Amazing</h2>
+
+            <p>
+                Ready to elevate your content?
+                Contact us or subscribe for updates.
+            </p>
+
+        </div>
+
+        <!-- Email Subscription -->
+
+        <div class="subscribe-box">
+
+            <h3>Subscribe for Updates</h3>
+
+            <form id="subscribeForm">
+
+                <input
+                    type="email"
+                    id="subscriberEmail"
+                    placeholder="Enter your email"
+                    required>
+
+                <button type="submit" class="btn-primary">
+
+                    Subscribe
+
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- Contact Form -->
+
+        <div class="contact-form-box">
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Email Address"
+                    required>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Phone Number"
+                    required>
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Your Message"
+                    required></textarea>
+
+                <button
+                    type="submit"
+                    class="btn-primary">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--FOOTER-->
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-logo">
+
+            <img src="images/logo.PNG" alt="Logo">
+
+        </div>
+
+        <p>
+
+            Editkaro.in — Creative Video Editing &
+            Social Media Marketing Agency
+
+        </p>
+
+        <div class="social-icons">
+
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+            <a href="#"><i class="fab fa-instagram"></i></a>
+
+            <a href="#"><i class="fab fa-youtube"></i></a>
+
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+        </div>
+
+        <p class="copyright">
+
+            © 2026 Editkaro.in. All Rights Reserved.
+
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- VIDEO POPUP -->
+
+<div class="video-modal" id="videoModal">
+
+    <div class="video-box">
+
+        <span class="close-btn">&times;</span>
+
+        <video id="portfolioVideo" controls>
+
+            <source src="" type="video/mp4">
+
+        </video>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
